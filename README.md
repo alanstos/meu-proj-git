@@ -26,8 +26,13 @@ git push -u origin master
 --------------------------
 
 echo "# meu-proj-git-2" >> README.md
+
 git init
+
 git add README.md
+
 git commit -m "first commit"
+
 git remote add origin https://github.com/alanstos/meu-proj-git-2.git
+
 git push -u origin master
