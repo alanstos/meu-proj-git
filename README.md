@@ -15,11 +15,16 @@ git checkout -b new_branch_name
 
 git log
 git whatchanged
+git whatchanged -p
 
 --------------------------
+
 git remote add origin https://github.com/alanstos/meu-proj-git-2.git
+
 git push -u origin master
+
 --------------------------
+
 echo "# meu-proj-git-2" >> README.md
 git init
 git add README.md
