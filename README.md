@@ -36,3 +36,15 @@ git commit -m "first commit"
 git remote add origin https://github.com/alanstos/meu-proj-git-2.git
 
 git push -u origin master
+
+------------------
+
+git branch design
+
+git checkout design
+
+git push origin design
+
+git branch -r
+
+git branch -t design origin/design
