@@ -48,3 +48,5 @@ git push origin design
 git branch -r
 
 git branch -t design origin/design
+
+git fetch origin
