@@ -50,3 +50,8 @@ git branch -r
 git branch -t design origin/design
 
 git fetch origin
+
+------------------
+
+git branch -d tmp
+git push origin --delete tmp
